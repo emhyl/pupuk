@@ -9,7 +9,9 @@
           <div>
             <h4>Alamat</h4>
             <p>
-              ..... <br>
+              Alamat : Dusun Polewali Kec.Gantarang 
+              Kab.Bulukumba 
+              <br>
             </p>
           </div>
 
@@ -20,7 +22,7 @@
           <div>
             <h4>kontak</h4>
             <p>
-              <strong>Nomor :</strong> +1 5589 55488 55<br>
+              <strong>Nomor :</strong> +62 852-4289-7819<br>
               </p>
           </div>
         </div>
@@ -28,9 +30,9 @@
         <div class="col-lg-3 col-md-6 footer-links d-flex">
           <i class="bi bi-clock icon"></i>
           <div>
-            <h4>Jam buka</h4>
+            <h4>Rekening</h4>
             <p>
-              <strong>Jam : 07:00 - 17:00</strong>
+              <strong>BRI : 490201022568533</strong>
             </p>
           </div>
         </div>
