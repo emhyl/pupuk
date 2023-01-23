@@ -85,7 +85,7 @@
               <div class="card recent-sales overflow-auto">
 
                 <div class="card-body">
-                  <h5 class="card-title">Riwayat Penjualan</h5>
+                  <h5 class="card-title"><a href="<?= base_url('admin/home/export') ?>"><i class="bi bi-file-earmark-pdf-fill"></i> Rekap</a></h5>
 
                   <?= $data ?>
 

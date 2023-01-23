@@ -33,5 +33,18 @@ class Home extends CI_Controller {
 		$this->load->view('admin/setting');
 		$this->load->view('templates/admin/footer');
 	}
+
+
+	public function export() {
+
+		$data['laporan'] = $this->db_pupuk->getAll('pembeli');
+
+
+	    $this->load->library('pdf');
+	    $this->pdf->setPaper('A4', 'potrait');
+	    $this->pdf->filename = 'laporan.pdf';
+	    $this->pdf->load('admin/view_laporan', $data);
+
+	}
 	
 }
